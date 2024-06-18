@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 80vh;
+    background-color: #f2f2f2;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 85%;
+    height: 60vh;
+    border-radius: 20px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 7px 34px -9px rgba(0, 0, 0, 0.386);
+
+}
+
+.hero .left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 30%;
+    height: 70%;
+    gap: 20px;
+
+}
+
+.left img {
+    width: 80%;
+    height: 90%;
+    border-radius: 35px;
+}
+
+.selectImage {
+    padding: 12px 20px;
+    border-radius: 12px;
+    background-color: #D2c3f9;
+    color: white;
+
+}
+
+.selectImage:hover {
+    background-color: #a88ef9;
+
+} 
+
+.selectImage:active{
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Smaller shadow on click */
+    transform: scale(0.9);
+}
+
+
+
+main .right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 30%;
+    height: 70%;
+    gap: 20px;
+}
+
+.right .colorCard{
+    width: 50%;
+    height: 60%;
+    background-color: #b7c4f9;
+    border-radius: 30px;
+}
+
+.right p{
+    color:#3f3f3f;
+    font-size: 20px;
+    font-family: 'arial', sans-serif;
+}
